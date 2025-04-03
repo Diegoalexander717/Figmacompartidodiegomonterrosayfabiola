@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
 body {
     font-family: "Jim Nightshade", cursive;
@@ -84,3 +85,76 @@ h2 {
 p.tu {
     color: #b6b6b6;
 }
+=======
+body{
+    background-color:rgb(42, 65, 83);
+}
+
+header{
+    color: rgb(255, 252, 252);
+    font-family: "Jim Nightshade", cursive;
+    text-align: center
+}
+header h4{
+    background-color:rgb(87, 95, 121);
+}
+header h2{
+    background-color:rgb(212, 212, 212);
+    font-family: "Libre Caslon Display", serif;
+    color: black;
+    
+}
+nav a{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+nav a img{
+    width:115px; 
+    margin-left:100px;
+
+}
+.main-section {
+  background-color: #5b6a88;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 80px;
+  margin-left: 1000px;
+  margin-top: 5px;
+ 
+
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px;
+  margin-left:200px;
+  
+}
+
+.info {
+  max-width: 300px;
+  text-align: left;
+  margin-left:10%;
+}
+
+.info p {
+  margin-bottom: 15px;}
+
+.div {
+    border-radius:10px;
+    width:100px;
+
+}
+
+>>>>>>> 36e47d5 (figma)
