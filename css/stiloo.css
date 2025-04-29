@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+body {
+    font-family: "Jim Nightshade", cursive;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f5f5f5;
+ }
+ body.el{
+    font-family: "Jim Nightshade", cursive;
+    background-image: url(https://images.ctfassets.net/gscn32h7ckds/564cSZv3794vKOfzcdEfeR/27878005b70b0fea6a651c1d646d0f90/ralph_lauren_outlet_banner_CM.jpg);
+ }
+
+header { 
+    background-color: #393A67; 
+    color: white; 
+    padding: 15px; 
+    text-align: center; 
+}
+
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px;
+ }
+
+nav a { 
+    color: white; 
+    text-decoration: none;
+ }
+
+.productos { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+ }
+
+.producto { 
+    background: white; 
+    padding: 15px; 
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.producto img { 
+    max-width: 100px; 
+    border-radius: 10px;
+ }
+
+.promo { 
+    text-align: center; 
+    margin: 20px; 
+    padding: 20px; 
+    background: white; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+ }
+
+.promo img { 
+    max-width: 100%; 
+    border-radius: 10px;
+ }
+
+/*el inicio*/
+
+
+.container .tu {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: left;
+    height: 0vh; 
+    font-family: "Jim Nightshade", cursive;
+
+}
+
+h2 {
+    font-size: 80px;
+    color: #ffffff; 
+}
+
+p.tu {
+    color: #b6b6b6;
+    justify-content: flex-start;
+    align-items:baseline;
+    height: 70vh;
+    font-family: "Boldonse", system-ui;
+}
+.viaje li{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+}
+.footer{
+ 
+    flex: 1;
+    background-color: rgb(65, 64, 64);
+    font-family: "Inter";
+    text-align: center;
+    color: white;
+  }
+
+  .fondoo{
+    background-color: #1F3236;
+  }
+  
+  .imgg{
+    background-color: black;
+  }
+  .producto{
+    background-color: black;
+  }
+  .producto p{
+    color: white;
+  }
